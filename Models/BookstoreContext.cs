@@ -12,6 +12,7 @@ namespace BookStore.Models
     {
         public BookstoreContext()
         {
+
         }
 
         public BookstoreContext(DbContextOptions<BookstoreContext> options)
@@ -20,6 +21,7 @@ namespace BookStore.Models
         }
 
         public DbSet<Books> Books { get; set; }
+        public DbSet<Order> orders { get; set; }
 
     }
 }
