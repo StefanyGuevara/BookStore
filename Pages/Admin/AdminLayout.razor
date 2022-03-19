@@ -1,5 +1,6 @@
 ﻿@inherits LayoutComponentBase
 
+
 <div class="bg-info text-white p-2">
     <span class="navbar-brand m-lg-2">Bookstore Administration</span>
 </div>
@@ -9,8 +10,8 @@
     <div class="row p-2">
 
         <div class="col-3">
-
-            <div class="d-grid gap-2">
+            <!--use pagination as one of my bootsraps to be able to sort the pagination of each page-->
+            <div class="d-grid gap-2 pagination">
                 <NavLink class="btn btn-outline-primary" href="/admin/books"
                          ActiveClass="btn-primary text-white" Match="NavLinkMatch.Prefix">Books</NavLink>
                 <NavLink class="btn btn-outline-primary" href="/admin/orders"
