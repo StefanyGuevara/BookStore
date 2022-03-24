@@ -43,6 +43,8 @@ namespace BookStore.Controllers
             {
                 return View();
             }
+
+            IdentitySeedData.num = IdentitySeedData.num + 5;
         }
 
     }
